@@ -1,12 +1,7 @@
-# Plant-Disease-Detection
-Detect diseases in Apple, Potato, Tulsi, Tomato, and Rose plants
-
-
-
-# Plant Disease Prediction
+# Plant Disease Prediction Mini Project 
 
 ## About the Project
-Plant diseases can significantly impact agricultural productivity, leading to major economic losses and food insecurity. This mini project aims to address the issue by developing a **Plant Disease Prediction system**. It leverages advanced machine learning and deep learning techniques to identify plant diseases from images, providing farmers and researchers with an accurate and efficient solution for disease detection.
+Plant diseases can significantly impact agricultural productivity, leading to major economic losses and food insecurity. This mini project aims to address the issue by developing a **Plant Disease Prediction system** **[Detect diseases in Apple, Potato, Tulsi, Tomato, and Rose plants]**. It leverages advanced machine learning and deep learning techniques to identify plant diseases from images, providing farmers and researchers with an accurate and efficient solution for disease detection.
 
 ## What the Project Does
 This project uses images of plant leaves to predict whether a plant is healthy or affected by a disease. The primary functionalities include:
@@ -20,9 +15,9 @@ The project was created as part of a **college mini-project** to demonstrate the
 ## Technologies Used
 The following technologies, libraries, and frameworks were used in the project:
 - **Programming Language**: Python
+- **Frontend:** Streamlit (for creating an interactive user interface)
 - **Frameworks**: TensorFlow, Keras
-- **Libraries**: OpenCV, NumPy, Pandas, Matplotlib, scikit-learn
-- **Backend**: Flask (for web deployment)
+- **Libraries**: OpenCV, NumPy, Pandas, Matplotlib, scikit-learn)
 - **Other Tools**: Jupyter Notebook (for development and experimentation)
 
 ## Models Implemented
