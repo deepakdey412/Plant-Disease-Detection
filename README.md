@@ -1,9 +1,19 @@
-# Plant Disease Prediction Mini Project 
+# Plant Disease Prediction
+
+## Index
+- [About the Project](#about-the-project)
+- [What the Project Does ?](#what-the-project-does-?)
+- [Motivation](#motivation)
+- [Technologies Used](#technologies-used)
+- [Models Implemented](#models-implemented)
+- [How It Works Internally](#how-it-works-internally)
+- [How to Run the Project](#how-to-run-the-project)
+- [Customization Guide](#customization-guide)
 
 ## About the Project
 Plant diseases can significantly impact agricultural productivity, leading to major economic losses and food insecurity. This mini project aims to address the issue by developing a **Plant Disease Prediction system** **[Detect diseases in Apple, Potato, Tulsi, Tomato, and Rose plants]**. It leverages advanced machine learning and deep learning techniques to identify plant diseases from images, providing farmers and researchers with an accurate and efficient solution for disease detection.
 
-## What the Project Does
+## What the Project Does?
 This project uses images of plant leaves to predict whether a plant is healthy or affected by a disease. The primary functionalities include:
 - Detecting diseases in plants from images.
 - Classifying the specific type of disease.
@@ -15,9 +25,9 @@ The project was created as part of a **college mini-project** to demonstrate the
 ## Technologies Used
 The following technologies, libraries, and frameworks were used in the project:
 - **Programming Language**: Python
-- **Frontend:** Streamlit (for creating an interactive user interface)
 - **Frameworks**: TensorFlow, Keras
-- **Libraries**: OpenCV, NumPy, Pandas, Matplotlib, scikit-learn)
+- **Libraries**: OpenCV, NumPy, Pandas, Matplotlib, scikit-learn
+- **Frontend**: Streamlit (for creating an interactive user interface)
 - **Other Tools**: Jupyter Notebook (for development and experimentation)
 
 ## Models Implemented
@@ -46,7 +56,7 @@ Follow these steps to run the project on another device:
 1. Install Python 3.8+.
 2. Install the following libraries using pip:
    ```bash
-   pip install tensorflow keras opencv-python numpy pandas matplotlib scikit-learn flask
+   pip install tensorflow keras opencv-python numpy pandas matplotlib scikit-learn streamlit
    ```
 3. Ensure the dataset is available in the required format (organized in folders for training and testing).
 
@@ -59,11 +69,11 @@ Follow these steps to run the project on another device:
    ```bash
    cd plant-disease-prediction
    ```
-3. Start the Flask server:
+3. Start the Streamlit application:
    ```bash
-   python app.py
+   streamlit run app.py
    ```
-4. Access the application in your browser at `http://127.0.0.1:5000`.
+4. Access the application in your browser at the provided local URL (e.g., `http://127.0.0.1:8501`).
 
 ## Customization Guide
 You can adapt the project for custom datasets by following these steps:
@@ -100,13 +110,12 @@ You can adapt the project for custom datasets by following these steps:
    - Evaluate and save the trained model for future use.
 
 4. **Integrate the Model**:
-   - Replace the old model file in the Flask application with your trained model.
+   - Replace the old model file in the Streamlit application with your trained model.
 
 5. **Test the Application**:
-   - Start the Flask server and test predictions with images from your dataset.
+   - Start the Streamlit app and test predictions with images from your dataset.
 
 ---
 
 This README should provide clear guidance for users to understand, use, and modify the Plant Disease Prediction project for their purposes. 😊
-
 
