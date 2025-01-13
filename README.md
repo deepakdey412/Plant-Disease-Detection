@@ -3,7 +3,7 @@
 ## Index
 - [About the Project](#about-the-project)
 - [What the Project Does ?](#what-the-project-does-?)
-- [Motivation(myContribution)](#motivation)
+- [Motivation (My contribution) ](#motivation)
 - [Technologies Used](#technologies-used)
 - [Models Implemented](#models-implemented)
 - [How It Works Internally](#how-it-works-internally)
@@ -19,8 +19,11 @@ This project uses images of plant leaves to predict whether a plant is healthy o
 - Classifying the specific type of disease.
 - Providing accurate predictions with the help of trained models.
  
-## Motivation
+## Motivation 
 The project was created as part of a **college mini-project** to demonstrate the practical application of machine learning in solving real-world problems. Agriculture is a crucial sector, and early detection of plant diseases can prevent widespread damage, saving time, money, and resources. This project is a step toward automating the process of disease detection and contributing to smarter agricultural practices.
+
+##Contribution
+I contributed to my friend's Plant Disease Detection Project by training models for various plant types to achieve accurate disease detection. I also integrated these trained models into the frontend, ensuring a smooth and user-friendly experience. My efforts helped improve the project's accuracy and usability significantly.
 
 ## Technologies Used
 The following technologies, libraries, and frameworks were used in the project:
