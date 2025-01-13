@@ -22,7 +22,7 @@ This project uses images of plant leaves to predict whether a plant is healthy o
 ## Motivation 
 The project was created as part of a **college mini-project** to demonstrate the practical application of machine learning in solving real-world problems. Agriculture is a crucial sector, and early detection of plant diseases can prevent widespread damage, saving time, money, and resources. This project is a step toward automating the process of disease detection and contributing to smarter agricultural practices.
 
-##Contribution
+## Contribution
 I contributed to my friend's Plant Disease Detection Project by training models for various plant types to achieve accurate disease detection. I also integrated these trained models into the frontend, ensuring a smooth and user-friendly experience. My efforts helped improve the project's accuracy and usability significantly.
 
 ## Technologies Used
